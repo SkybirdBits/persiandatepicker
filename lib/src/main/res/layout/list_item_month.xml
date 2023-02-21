@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_50"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightblue_500"
+        android:gravity="center">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DateTextStyle"
+            tools:text="بهمن" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DateTextStyle"
+            tools:text="۱۳۵۴" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/lightblue_500_light"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/sat"
+            style="@style/DayOfWeekLabel" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/sun"
+
+            style="@style/DayOfWeekLabel" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/mon"
+            style="@style/DayOfWeekLabel"
+            />
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/tue"
+            style="@style/DayOfWeekLabel"
+
+            />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/wed"
+            style="@style/DayOfWeekLabel"
+            />
+
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/thur"
+            style="@style/DayOfWeekLabel"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/fri"
+            style="@style/DayOfWeekLabel"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/daysTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include layout="@layout/view_calendar_week"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+
+        <include layout="@layout/view_calendar_week"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            />
+
+
+        <include layout="@layout/view_calendar_week"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+
+        <include layout="@layout/view_calendar_week"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+
+        <include layout="@layout/view_calendar_week"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <include layout="@layout/view_calendar_week"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+

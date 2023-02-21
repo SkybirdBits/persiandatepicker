@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Calendar Components style -->
+    <style name="DateTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="fontFamily">@font/samim_bold</item>
+    </style>
+
+    <style name="DateTodayTextStyle">
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">20sp</item>
+        <item name="fontFamily">@font/samim_bold</item>
+    </style>
+
+    <style name="DayOfWeekLabel" parent="Widget.MaterialComponents.MaterialCalendar.DayTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/samim_bold</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+
+    <style name="DayOfWeek" parent="Widget.MaterialComponents.MaterialCalendar.Day">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:background">@drawable/selector_calendar_day</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">auto</item>
+
+    </style>
+
+</resources>

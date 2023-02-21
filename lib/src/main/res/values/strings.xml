@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name" translatable="false">PersianDatePicker</string>
+
+    <string name="sat_latin">sat</string>
+    <string name="sun_latin">sun</string>
+    <string name="mon_latin">mon</string>
+    <string name="tue_latin">tue</string>
+    <string name="wed_latin">wed</string>
+    <string name="thur_latin">thur</string>
+    <string name="fri_latin">fri</string>
+
+    <string name="sat">ش</string>
+    <string name="sun">ی</string>
+    <string name="mon">د</string>
+    <string name="tue">س</string>
+    <string name="wed">چ</string>
+    <string name="thur">پ</string>
+    <string name="fri">ج</string>
+
+
+    <string name="cancel">لغو</string>
+    <string name="ok">تایید</string>
+
+    <string name="cancel_latin">Cancel</string>
+    <string name="ok_latin">OK</string>
+</resources>
